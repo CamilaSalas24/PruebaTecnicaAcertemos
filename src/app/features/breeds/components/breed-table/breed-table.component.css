@@ -1,0 +1,30 @@
+mat-card {
+  margin: 16px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  background-color: #F6F4F0;
+}
+
+img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+mat-table{
+  background-color: #F6F4F0;
+}
+mat-row:hover{
+  background-color: #E9E2D8;
+}
+.filtre_container{
+  display: flex;
+  gap:16px;
+  margin-bottom: 16px;
+}
+.search-field,.energy-filter {
+  margin-right: 16px;
+  width: 250px;
+}

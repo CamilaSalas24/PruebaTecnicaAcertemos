@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <span>Listado de Razas de Gatos</span>
+  <span class="spacer"></span>
+  <button mat-button routerLink="/favoritos">Ver Favoritos</button>
+</mat-toolbar>
+
+<app-breed-table 
+[breeds]="breeds"
+[favorites]="favorites"
+(toggleFavorite)="onToggleFavorite($event)"
+></app-breed-table>
